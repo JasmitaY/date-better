@@ -292,17 +292,17 @@ const Quiz = () => {
 
   if (isCompleted && results) {
     return (
-      <div className="results-container text-white">
-        <h1>Your Results</h1>
-        <h2>{results.title}</h2>
-        <p>{results.description}</p>
-        <div className="about-section">
-          <h3>About You</h3>
-          <p>{results.about}</p>
-        </div>
-        {/* Display other result information as needed */}
-      </div>
-      // <Results/>
+      // <div className="results-container text-white">
+      //   <h1>Your Results</h1>
+      //   <h2>{results.title}</h2>
+      //   <p>{results.description}</p>
+      //   <div className="about-section">
+      //     <h3>About You</h3>
+      //     <p>{results.about}</p>
+      //   </div>
+      //   {/* Display other result information as needed */}
+      // </div>
+      <Results/>
     );
   }
 
