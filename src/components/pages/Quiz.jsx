@@ -302,7 +302,7 @@ const Quiz = () => {
       //   </div>
       //   {/* Display other result information as needed */}
       // </div>
-      <Results/>
+      <Results resultId={results.id} />
     );
   }
 

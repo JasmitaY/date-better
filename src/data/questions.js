@@ -32,6 +32,11 @@ import thrifting from "../assets/dates/thrifting.svg";
 import baking from "../assets/dates/baking.svg";
 import roadTrip from "../assets/dates/road-trip.svg";
 
+import pinkOrganic from "../assets/ingredients/pink-organic.svg";
+import orangeOrganic from "../assets/ingredients/pink-organic.svg";
+import purpleOrganic from "../assets/ingredients/pink-organic.svg";
+import brownOrganic from "../assets/ingredients/pink-organic.svg";
+
 export const quizData = {
   title: "Date Better Quiz",
   questions: [
@@ -431,13 +436,14 @@ export const quizData = {
   resultCategories: [
     {
       id: "snickerdoodle",
-      title: "Snickerdoodle Cookie",
+      title: "Snickerdoodle\nCookie",
       description: "The kind soul who radiates warmth",
       cookieImage: snickerdoodle,
       primaryColor: "#EBB0B6",
-      textColor: '#692800',
+      textColor: "#692800",
+      organicImage: pinkOrganic,
       about:
-        "Cinnamon-kissed nut butter and almond pieces create a nostalgic, heartwarming bite--perfect for the kind soul who radiates warmth.",
+        "Cinnamon-kissed\nnut butter and almond\npieces create a nostalgic,\nheartwarming bite--\nperfect for the kind soul\nwho radiates warmth.",
       ingredients: [
         { name: "Medjool Dates", icon: date },
         { name: "Dark Chocolate", icon: darkChocolate, organic: true },
@@ -449,7 +455,7 @@ export const quizData = {
         { name: "Sea Salt", icon: seaSalt },
       ],
       dateIdea: {
-        title: '"52 Reasons Why" Letter Writing',
+        title: '"52 Reasons Why"\nLetter Writing',
         image: letter,
       },
       socialMedia: {
@@ -460,13 +466,14 @@ export const quizData = {
     },
     {
       id: "hazelnutPraline",
-      title: "Hazelnut Praline",
+      title: "Hazelnut\nPraline",
       description: "The one who loves self-care & comfort",
       cookieImage: hazelnutPraline,
       primaryColor: "#D96114",
-      textColor: '#F6EAD5',
+      textColor: "#F6EAD5",
+      organicImage: orangeOrganic,
       about:
-        "Indulgent hazelnut praline delivers cozy, self-care vibes for quiet nights in, wrapped in warmth and comfort.",
+        "Indulgent hazelnut\npraline delivers\ncozy, self-care vibes\nfor quiet nights in,\nwrapped in warmth\nand comfort.",
       ingredients: [
         { name: "Medjool Dates", icon: date },
         { name: "Dark Chocolate", icon: darkChocolate, organic: true },
@@ -488,13 +495,14 @@ export const quizData = {
     },
     {
       id: "cashewLime",
-      title: "Cashew Lime Crisp",
+      title: "Cashew Lime\nCrisp",
       description: "The vibrant spirit who loves spontaneity",
       cookieImage: cashewLime,
-      primaryColor: '#DDB3EA',
-      textColor: '#692800',
+      primaryColor: "#DDB3EA",
+      textColor: "#692800",
+      organicImage: purpleOrganic,
       about:
-        "Zesty lime, creamy cashew butter, and toasted quinoa crunch make every bite vibrant and exciting— ideal for the spontaneous spirit.",
+        "Zesty lime, creamy\ncashew butter, and\ntoasted quinoa crunch\nmake every bite vibrant\nand exciting— ideal for\nthe spontaneous spirit.",
       ingredients: [
         { name: "Medjool Dates", icon: date },
         { name: "Dark Chocolate", icon: darkChocolate, organic: true },
@@ -506,7 +514,7 @@ export const quizData = {
         { name: "Lime Juice", icon: limeJuice },
       ],
       dateIdea: {
-        title: "Thrifting & Gifting Challenge",
+        title: "Thrifting & Gifting\nChallenge",
         image: thrifting,
       },
       socialMedia: {
@@ -517,13 +525,14 @@ export const quizData = {
     },
     {
       id: "peanutButter",
-      title: "Peanut Butter Crunch",
+      title: "Peanut Butter\nCrunch",
       description: "The one who loves cozy uplifting moments",
       cookieImage: peanutButter,
-      primaryColor: '#D96114',
-      textColor: '#F6EAD5',
+      primaryColor: "#D96114",
+      textColor: "#F6EAD5",
+      organicImage: orangeOrganic,
       about:
-        "Rich peanut butter with crunchy cacao nibs offers a sweet, grounding treat for those who cherish cozy, uplifting moments.",
+        "Rich peanut butter\nwith crunchy cacao\nnibs offers a sweet,\ngrounding treat for\nthose who cherish\ncozy, uplifting\nmoments.",
       ingredients: [
         { name: "Medjool Dates", icon: date },
         { name: "Dark Chocolate", icon: darkChocolate, organic: true },
@@ -545,13 +554,14 @@ export const quizData = {
     },
     {
       id: "almondJava",
-      title: "Almond Java Crunch",
+      title: "Almond Java\nCrunch",
       description: "The go-getter who thrives on energy",
       cookieImage: almondJava,
-      primaryColor: '#B58D3B',
-      textColor: '#F6EAD5',
+      primaryColor: "#B58D3B",
+      textColor: "#F6EAD5",
+      organicImage: brownOrganic,
       about:
-        "Bold espresso, crunchy almonds, and a touch of sweetness fuel the driven spirit—perfect for those who chase their passions with unstoppable energy.",
+        "Bold espresso, crunchy\nalmonds, and a touch\nof sweetness fuel the\ndriven spirit—-perfect\nfor those who chase\ntheir passions with\nunstoppable energy.",
       ingredients: [
         { name: "Medjool Dates", icon: date },
         { name: "Dark Chocolate", icon: darkChocolate, organic: true },
