@@ -1,15 +1,10 @@
 import { useState, useEffect } from "react";
-import headerLogo from "../../assets/db-logo-header.svg";
-import X from "../../assets/X.svg";
-import Brentwood from "../../assets/Brentwood.svg";
+import headerLogo from "../../assets/branding/db-logo-header.svg";
+import X from "../../assets/branding/X.svg";
+import Brentwood from "../../assets/branding/Brentwood.svg";
 import { Button } from "../ui/button";
 
-const QuizPage = ({
-  question,
-  onNext,
-  onSelect,
-  currentQuestionIndex,
-}) => {
+const QuizPage = ({ question, onNext, onSelect, currentQuestionIndex }) => {
   const [selectedOption, setSelectedOption] = useState(null);
 
   useEffect(() => {
@@ -34,14 +29,12 @@ const QuizPage = ({
     return positions[currentQuestionIndex] || "left-3/10";
   };
 
-
-
   const handleOptionClick = (optionId, value) => {
     setSelectedOption(optionId);
     onSelect(question.id, value);
   };
 
-  console.log(getDotPositionClass())
+  console.log(getDotPositionClass());
   return (
     <div className="bg-[#F6EAD5] absolute inset-x-0 top-0 h-36">
       {/* Header */}

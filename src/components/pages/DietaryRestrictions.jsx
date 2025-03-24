@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import headerLogo from "../../assets/db-logo-header.svg";
-import X from "../../assets/X.svg";
-import Brentwood from "../../assets/Brentwood.svg";
+import headerLogo from "../../assets/branding/db-logo-header.svg";
+import X from "../../assets/branding/X.svg";
+import Brentwood from "../../assets/branding/Brentwood.svg";
 import { Button } from "../ui/button";
 
 // Import nut images
-import cashewsImg from "../../assets/cashews.svg";
-import peanutsImg from "../../assets/peanuts.svg";
-import almondsImg from "../../assets/almonds.svg";
-import hazelnutsImg from "../../assets/hazelnuts.svg";
+import cashewsImg from "../../assets/branding/cashews.svg";
+import peanutsImg from "../../assets/branding/peanuts.svg";
+import almondsImg from "../../assets/branding/almonds.svg";
+import hazelnutsImg from "../../assets/branding/hazelnuts.svg";
 
 function DietaryRestrictions() {
   const navigate = useNavigate();

@@ -1,4 +1,37 @@
 // src/data/questions.js
+
+import snickerdoodle from "../assets/cookie/snickerdoodle.svg";
+import hazelnutPraline from "../assets/cookie/hazelnut-praline.svg";
+import cashewLime from "../assets/cookie/cashew-lime.svg";
+import peanutButter from "../assets/cookie/peanut-butter.svg";
+import almondJava from "../assets/cookie/almond-java.svg";
+
+import almond from "../assets/ingredients/almond.svg";
+import caneSugar from "../assets/ingredients/cane-sugar.svg";
+import cashew from "../assets/ingredients/cashew.svg";
+import cinnamon from "../assets/ingredients/cinnamon.svg";
+import citricAcid from "../assets/ingredients/citric-acid.svg";
+import cocoaButter from "../assets/ingredients/cocoa-butter.svg";
+import cocoaMass from "../assets/ingredients/cocoa-mass.svg";
+import cocoaNibs from "../assets/ingredients/cocoa-nibs.svg";
+import coconut from "../assets/ingredients/coconut.svg";
+import darkChocolate from "../assets/ingredients/dark-chocolate.svg";
+import date from "../assets/ingredients/date.svg";
+import espresso from "../assets/ingredients/espresso-beans.svg";
+import hazelnut from "../assets/ingredients/hazelnut.svg";
+import limeJuice from "../assets/ingredients/lime-juice.svg";
+import limeOil from "../assets/ingredients/lime-oil.svg";
+import peanut from "../assets/ingredients/peanut.svg";
+import seaSalt from "../assets/ingredients/sea-salt.svg";
+import quinoa from "../assets/ingredients/quinoa.svg";
+import vanilla from "../assets/ingredients/vanilla.svg";
+
+import letter from "../assets/dates/letter.svg";
+import stargazing from "../assets/dates/stargazing.svg";
+import thrifting from "../assets/dates/thrifting.svg";
+import baking from "../assets/dates/baking.svg";
+import roadTrip from "../assets/dates/road-trip.svg";
+
 export const quizData = {
   title: "Date Better Quiz",
   questions: [
@@ -400,137 +433,142 @@ export const quizData = {
       id: "snickerdoodle",
       title: "Snickerdoodle Cookie",
       description: "The kind soul who radiates warmth",
-      cookieImage: "", // Path to your cookie image
+      cookieImage: snickerdoodle,
+      primaryColor: "#EBB0B6",
+      textColor: '#692800',
       about:
         "Cinnamon-kissed nut butter and almond pieces create a nostalgic, heartwarming bite--perfect for the kind soul who radiates warmth.",
       ingredients: [
-        { name: "Medjool Dates", icon: "" },
-        { name: "Dark Chocolate", icon: "", organic: true },
-        { name: "Almonds", icon: "" },
-        { name: "Cashews", icon: "" },
-        { name: "Coconut", icon: "" },
-        { name: "Cinnamon", icon: "" },
-        { name: "Vanilla", icon: "" },
-        { name: "Sea Salt", icon: "" },
+        { name: "Medjool Dates", icon: date },
+        { name: "Dark Chocolate", icon: darkChocolate, organic: true },
+        { name: "Almonds", icon: almond },
+        { name: "Cashews", icon: cashew },
+        { name: "Coconut", icon: coconut },
+        { name: "Cinnamon", icon: cinnamon },
+        { name: "Vanilla", icon: vanilla },
+        { name: "Sea Salt", icon: seaSalt },
       ],
       dateIdea: {
         title: '"52 Reasons Why" Letter Writing',
-        image: "", // Path to your date idea image
+        image: letter,
       },
       socialMedia: {
-        instagram: "", // instagram-link
-        twitter: "", // twitter-link
-        facebook: "", // facebook-link
-        pinterest: "", // pinterest-link
+        instagram: "https://www.instagram.com/datebettersnacks/",
+        tiktok: "https://www.tiktok.com/@datebettersnacks",
+        website: "https://datebettersnacks.com/",
       },
     },
     {
       id: "hazelnutPraline",
       title: "Hazelnut Praline",
       description: "The one who loves self-care & comfort",
-      cookieImage: "",
+      cookieImage: hazelnutPraline,
+      primaryColor: "#D96114",
+      textColor: '#F6EAD5',
       about:
         "Indulgent hazelnut praline delivers cozy, self-care vibes for quiet nights in, wrapped in warmth and comfort.",
       ingredients: [
-        { name: "Medjool Dates", icon: "" },
-        { name: "Dark Chocolate", icon: "", organic: true },
-        { name: "Cane Sugar", icon: "" },
-        { name: "Cocoa Butter", icon: "" },
-        { name: "Cocoa Nibs", icon: "", organic: true },
-        { name: "Hazelnuts", icon: "" },
-        { name: "Sea Salt", icon: "" },
+        { name: "Medjool Dates", icon: date },
+        { name: "Dark Chocolate", icon: darkChocolate, organic: true },
+        { name: "Cane Sugar", icon: caneSugar },
+        { name: "Cocoa Butter", icon: cocoaButter },
+        { name: "Cocoa Nibs", icon: cocoaNibs, organic: true },
+        { name: "Hazelnuts", icon: hazelnut },
+        { name: "Sea Salt", icon: seaSalt },
       ],
       dateIdea: {
         title: "Stargazing & Cuddles",
-        image: "",
+        image: stargazing,
       },
       socialMedia: {
-        instagram: "", // instagram-link
-        twitter: "", // twitter-link
-        facebook: "", // facebook-link
-        pinterest: "", // pinterest-link
+        instagram: "https://www.instagram.com/datebettersnacks/",
+        tiktok: "https://www.tiktok.com/@datebettersnacks",
+        website: "https://datebettersnacks.com/",
       },
     },
     {
       id: "cashewLime",
       title: "Cashew Lime Crisp",
       description: "The vibrant spirit who loves spontaneity",
-      cookieImage: "",
+      cookieImage: cashewLime,
+      primaryColor: '#DDB3EA',
+      textColor: '#692800',
       about:
         "Zesty lime, creamy cashew butter, and toasted quinoa crunch make every bite vibrant and exciting— ideal for the spontaneous spirit.",
       ingredients: [
-        { name: "Medjool Dates", icon: "" },
-        { name: "Dark Chocolate", icon: "", organic: true },
-        { name: "Quinoa", icon: "", organic: true },
-        { name: "Raw Cashews", icon: "" },
-        { name: "Sea Salt", icon: "" },
-        { name: "Citric Acid", icon: "" },
-        { name: "Lime Oil", icon: "" },
-        { name: "Lime Juice", icon: "" },
+        { name: "Medjool Dates", icon: date },
+        { name: "Dark Chocolate", icon: darkChocolate, organic: true },
+        { name: "Quinoa", icon: quinoa, organic: true },
+        { name: "Raw Cashews", icon: cashew },
+        { name: "Sea Salt", icon: seaSalt },
+        { name: "Citric Acid", icon: citricAcid },
+        { name: "Lime Oil", icon: limeOil },
+        { name: "Lime Juice", icon: limeJuice },
       ],
       dateIdea: {
         title: "Thrifting & Gifting Challenge",
-        image: "",
+        image: thrifting,
       },
       socialMedia: {
-        instagram: "", // instagram-link
-        twitter: "", // twitter-link
-        facebook: "", // facebook-link
-        pinterest: "", // pinterest-link
+        instagram: "https://www.instagram.com/datebettersnacks/",
+        tiktok: "https://www.tiktok.com/@datebettersnacks",
+        website: "https://datebettersnacks.com/",
       },
     },
     {
       id: "peanutButter",
       title: "Peanut Butter Crunch",
       description: "The one who loves cozy uplifting moments",
-      cookieImage: "",
+      cookieImage: peanutButter,
+      primaryColor: '#D96114',
+      textColor: '#F6EAD5',
       about:
         "Rich peanut butter with crunchy cacao nibs offers a sweet, grounding treat for those who cherish cozy, uplifting moments.",
       ingredients: [
-        { name: "Medjool Dates", icon: "" },
-        { name: "Dark Chocolate", icon: "", organic: true },
-        { name: "Cane Sugar", icon: "" },
-        { name: "Cocoa Butter", icon: "" },
-        { name: "Cocoa Nibs", icon: "" },
-        { name: "Peanuts", icon: "", organic: true },
-        { name: "Sea Salt", icon: "" },
+        { name: "Medjool Dates", icon: date },
+        { name: "Dark Chocolate", icon: darkChocolate, organic: true },
+        { name: "Cane Sugar", icon: caneSugar },
+        { name: "Cocoa Butter", icon: cocoaButter },
+        { name: "Cocoa Nibs", icon: cocoaNibs },
+        { name: "Peanuts", icon: peanut, organic: true },
+        { name: "Sea Salt", icon: seaSalt },
       ],
       dateIdea: {
         title: "Baking Night",
-        image: "",
+        image: baking,
       },
       socialMedia: {
-        instagram: "", // instagram-link
-        twitter: "", // twitter-link
-        facebook: "", // facebook-link
-        pinterest: "", // pinterest-link
+        instagram: "https://www.instagram.com/datebettersnacks/",
+        tiktok: "https://www.tiktok.com/@datebettersnacks",
+        website: "https://datebettersnacks.com/",
       },
     },
     {
       id: "almondJava",
       title: "Almond Java Crunch",
       description: "The go-getter who thrives on energy",
-      cookieImage: "",
+      cookieImage: almondJava,
+      primaryColor: '#B58D3B',
+      textColor: '#F6EAD5',
       about:
         "Bold espresso, crunchy almonds, and a touch of sweetness fuel the driven spirit—perfect for those who chase their passions with unstoppable energy.",
       ingredients: [
-        { name: "Medjool Dates", icon: "🍫" },
-        { name: "Dark Chocolate", icon: "🍫", organic: true },
-        { name: "Cane Sugar", icon: "🍫" },
-        { name: "Cocoa Butter", icon: "☕" },
-        { name: "Cocoa Mass", icon: "🌿" },
-        { name: "Almonds", icon: "⚪" },
-        { name: "Espresso Beans", icon: "⚪" },
+        { name: "Medjool Dates", icon: date },
+        { name: "Dark Chocolate", icon: darkChocolate, organic: true },
+        { name: "Cane Sugar", icon: caneSugar },
+        { name: "Cocoa Butter", icon: cocoaButter },
+        { name: "Cocoa Mass", icon: cocoaMass },
+        { name: "Almonds", icon: almond },
+        { name: "Espresso Beans", icon: espresso },
       ],
       dateIdea: {
         title: "Sunset Road Trip",
-        image: "",
+        image: roadTrip,
       },
       socialMedia: {
-        instagram: "", // instagram-link
-        twitter: "", // twitter-link
-        facebook: "", // facebook-link
-        pinterest: "", // pinterest-link
+        instagram: "https://www.instagram.com/datebettersnacks/",
+        tiktok: "https://www.tiktok.com/@datebettersnacks",
+        website: "https://datebettersnacks.com/",
       },
     },
   ],

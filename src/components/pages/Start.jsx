@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import headerLogo from "../../assets/db-logo-header.svg";
-import X from "../../assets/X.svg";
-import Brentwood from "../../assets/Brentwood.svg";
-import dateArt from "../../assets/date-art.svg";
-import dateLogo from "../../assets/date-cover.svg";
-import welcome from "../../assets/welcome.svg";
+import headerLogo from "../../assets/branding/db-logo-header.svg";
+import X from "../../assets/branding/X.svg";
+import Brentwood from "../../assets/branding/Brentwood.svg";
+import dateArt from "../../assets/branding/date-art.svg";
+import dateLogo from "../../assets/branding/date-cover.svg";
+import welcome from "../../assets/branding/welcome.svg";
 import { Button } from "../ui/button";
 
 function Start() {
