@@ -1,4 +1,13 @@
-// src/data/questions.js
+import darkDB from "../assets/branding/dark-db-logo.svg";
+import lightDB from "../assets/branding/light-db-logo.svg";
+
+import darkInsta from "../assets/branding/dark-instagram.svg";
+import darkTikTok from "../assets/branding/dark-tiktok.svg";
+import darkWebsite from "../assets/branding/dark-website.svg";
+
+import lightInsta from "../assets/branding/light-instagram.svg";
+import lightTikTok from "../assets/branding/light-tiktok.svg";
+import lightWebsite from "../assets/branding/light-website.svg";
 
 import snickerdoodle from "../assets/cookie/snickerdoodle.svg";
 import hazelnutPraline from "../assets/cookie/hazelnut-praline.svg";
@@ -26,16 +35,17 @@ import seaSalt from "../assets/ingredients/sea-salt.svg";
 import quinoa from "../assets/ingredients/quinoa.svg";
 import vanilla from "../assets/ingredients/vanilla.svg";
 
+import pinkOrganic from "../assets/ingredients/pink-organic.svg";
+import orangeOrganic from "../assets/ingredients/orange-organic.svg";
+import purpleOrganic from "../assets/ingredients/purple-organic.svg";
+import brownOrganic from "../assets/ingredients/brown-organic.svg";
+
 import letter from "../assets/dates/letter.svg";
 import stargazing from "../assets/dates/stargazing.svg";
 import thrifting from "../assets/dates/thrifting.svg";
 import baking from "../assets/dates/baking.svg";
 import roadTrip from "../assets/dates/road-trip.svg";
 
-import pinkOrganic from "../assets/ingredients/pink-organic.svg";
-import orangeOrganic from "../assets/ingredients/pink-organic.svg";
-import purpleOrganic from "../assets/ingredients/pink-organic.svg";
-import brownOrganic from "../assets/ingredients/pink-organic.svg";
 
 export const quizData = {
   title: "Date Better Quiz",
@@ -437,11 +447,12 @@ export const quizData = {
     {
       id: "snickerdoodle",
       title: "Snickerdoodle\nCookie",
-      description: "The kind soul who radiates warmth",
+      description: "The kind soul\nwho radiates warmth",
       cookieImage: snickerdoodle,
       primaryColor: "#EBB0B6",
       textColor: "#692800",
       organicImage: pinkOrganic,
+      dbLogo: darkDB,
       about:
         "Cinnamon-kissed\nnut butter and almond\npieces create a nostalgic,\nheartwarming bite--\nperfect for the kind soul\nwho radiates warmth.",
       ingredients: [
@@ -459,19 +470,23 @@ export const quizData = {
         image: letter,
       },
       socialMedia: {
-        instagram: "https://www.instagram.com/datebettersnacks/",
-        tiktok: "https://www.tiktok.com/@datebettersnacks",
-        website: "https://datebettersnacks.com/",
+        instagramLogo: darkInsta,
+        tiktokLogo: darkTikTok,
+        websiteLogo: darkWebsite,
+        instagramLink: "https://www.instagram.com/datebettersnacks/",
+        tiktokLink: "https://www.tiktok.com/@datebettersnacks",
+        websiteLink: "https://datebettersnacks.com/",
       },
     },
     {
       id: "hazelnutPraline",
       title: "Hazelnut\nPraline",
-      description: "The one who loves self-care & comfort",
+      description: "The one who loves\nself-care & comfort",
       cookieImage: hazelnutPraline,
       primaryColor: "#D96114",
       textColor: "#F6EAD5",
       organicImage: orangeOrganic,
+      dbLogo: lightDB,
       about:
         "Indulgent hazelnut\npraline delivers\ncozy, self-care vibes\nfor quiet nights in,\nwrapped in warmth\nand comfort.",
       ingredients: [
@@ -488,19 +503,23 @@ export const quizData = {
         image: stargazing,
       },
       socialMedia: {
-        instagram: "https://www.instagram.com/datebettersnacks/",
-        tiktok: "https://www.tiktok.com/@datebettersnacks",
-        website: "https://datebettersnacks.com/",
+        instagramLogo: lightInsta,
+        tiktokLogo: lightTikTok,
+        websiteLogo: lightWebsite,
+        instagramLink: "https://www.instagram.com/datebettersnacks/",
+        tiktokLink: "https://www.tiktok.com/@datebettersnacks",
+        websiteLink: "https://datebettersnacks.com/",
       },
     },
     {
       id: "cashewLime",
       title: "Cashew Lime\nCrisp",
-      description: "The vibrant spirit who loves spontaneity",
+      description: "The vibrant spirit who\nloves spontaneity",
       cookieImage: cashewLime,
       primaryColor: "#DDB3EA",
       textColor: "#692800",
       organicImage: purpleOrganic,
+      dbLogo: darkDB,
       about:
         "Zesty lime, creamy\ncashew butter, and\ntoasted quinoa crunch\nmake every bite vibrant\nand exciting— ideal for\nthe spontaneous spirit.",
       ingredients: [
@@ -518,19 +537,23 @@ export const quizData = {
         image: thrifting,
       },
       socialMedia: {
-        instagram: "https://www.instagram.com/datebettersnacks/",
-        tiktok: "https://www.tiktok.com/@datebettersnacks",
-        website: "https://datebettersnacks.com/",
+        instagramLogo: darkInsta,
+        tiktokLogo: darkTikTok,
+        websiteLogo: darkWebsite,
+        instagramLink: "https://www.instagram.com/datebettersnacks/",
+        tiktokLink: "https://www.tiktok.com/@datebettersnacks",
+        websiteLink: "https://datebettersnacks.com/",
       },
     },
     {
       id: "peanutButter",
       title: "Peanut Butter\nCrunch",
-      description: "The one who loves cozy uplifting moments",
+      description: "The one who loves\ncozy uplifting moments",
       cookieImage: peanutButter,
       primaryColor: "#D96114",
       textColor: "#F6EAD5",
       organicImage: orangeOrganic,
+      dbLogo: lightDB,
       about:
         "Rich peanut butter\nwith crunchy cacao\nnibs offers a sweet,\ngrounding treat for\nthose who cherish\ncozy, uplifting\nmoments.",
       ingredients: [
@@ -547,19 +570,23 @@ export const quizData = {
         image: baking,
       },
       socialMedia: {
-        instagram: "https://www.instagram.com/datebettersnacks/",
-        tiktok: "https://www.tiktok.com/@datebettersnacks",
-        website: "https://datebettersnacks.com/",
+        instagramLogo: lightInsta,
+        tiktokLogo: lightTikTok,
+        websiteLogo: lightWebsite,
+        instagramLink: "https://www.instagram.com/datebettersnacks/",
+        tiktokLink: "https://www.tiktok.com/@datebettersnacks",
+        websiteLink: "https://datebettersnacks.com/",
       },
     },
     {
       id: "almondJava",
       title: "Almond Java\nCrunch",
-      description: "The go-getter who thrives on energy",
+      description: "The go-getter who\nthrives on energy",
       cookieImage: almondJava,
       primaryColor: "#B58D3B",
       textColor: "#F6EAD5",
       organicImage: brownOrganic,
+      dbLogo: lightDB,
       about:
         "Bold espresso, crunchy\nalmonds, and a touch\nof sweetness fuel the\ndriven spirit—-perfect\nfor those who chase\ntheir passions with\nunstoppable energy.",
       ingredients: [
@@ -576,9 +603,12 @@ export const quizData = {
         image: roadTrip,
       },
       socialMedia: {
-        instagram: "https://www.instagram.com/datebettersnacks/",
-        tiktok: "https://www.tiktok.com/@datebettersnacks",
-        website: "https://datebettersnacks.com/",
+        instagramLogo: lightInsta,
+        tiktokLogo: lightTikTok,
+        websiteLogo: lightWebsite,
+        instagramLink: "https://www.instagram.com/datebettersnacks/",
+        tiktokLink: "https://www.tiktok.com/@datebettersnacks",
+        websiteLink: "https://datebettersnacks.com/",
       },
     },
   ],

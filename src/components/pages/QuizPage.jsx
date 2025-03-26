@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import headerLogo from "../../assets/branding/db-logo-header.svg";
-import X from "../../assets/branding/X.svg";
-import Brentwood from "../../assets/branding/Brentwood.svg";
+import quizBG from "../../assets/branding/quiz-bg.svg";
 import { Button } from "../ui/button";
 
 const QuizPage = ({ question, onNext, onSelect, currentQuestionIndex }) => {
@@ -41,8 +40,6 @@ const QuizPage = ({ question, onNext, onSelect, currentQuestionIndex }) => {
       <div className="bg-[#F6EAD5] pt-12 pb-6 px-6 relative flex flex-col items-center">
         <div className="flex items-center justify-center">
           <img src={headerLogo} className="w-16 mr-2" alt="Date Better logo" />
-          <img src={X} className="w-4 mx-1" alt="X" />
-          <img src={Brentwood} className="w-26" alt="Brentwood" />
         </div>
         <div className="header-container relative mt-4">
           <div className="w-full h-2.5 bg-[#E6D9C3] rounded-full relative">
@@ -55,7 +52,17 @@ const QuizPage = ({ question, onNext, onSelect, currentQuestionIndex }) => {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 bg-[#14316C] flex flex-col items-center px-6 pt-8 pb-16 text-white">
+      <div
+        className="flex-1 bg-[#14316C] flex flex-col items-center px-6 pt-8 pb-16 text-white relative min-h-screen"
+        style={{
+          backgroundImage: `url(${quizBG})`,
+          backgroundSize: "125% 125%",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          top: 0,
+          // backgroundAttachment: "fixed", // This ensures the background stays in place
+        }}
+      >
         <p className="!text-3xl mb-4 text-center font-normal text-[#FED5F5]">
           Question {question.id}
         </p>
@@ -103,7 +110,7 @@ const QuizPage = ({ question, onNext, onSelect, currentQuestionIndex }) => {
 
         <Button
           variant="outline"
-          className="secondary-font w-48 h-16 !rounded-2xl !border-5 !border-[#FED5F5] text-[#FED5F5] !text-2xl !font-extrabold !bg-transparent hover:!bg-transparent"
+          className="secondary-font w-48 h-16 !rounded-2xl !border-5 !border-[#FED5F5] text-[#FED5F5] hover:text-[#FEB7EE]  !text-2xl !font-extrabold !bg-[#14316C] !hover:bg-[#14316C]"
           onClick={onNext}
           disabled={selectedOption === null}
         >

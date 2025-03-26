@@ -1,7 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import headerLogo from "../../assets/branding/db-logo-header.svg";
-import X from "../../assets/branding/X.svg";
-import Brentwood from "../../assets/branding/Brentwood.svg";
 import dateArt from "../../assets/branding/date-art.svg";
 import dateLogo from "../../assets/branding/date-cover.svg";
 import welcome from "../../assets/branding/welcome.svg";
@@ -19,8 +17,6 @@ function Start() {
       <div className="bg-[#F6EAD5] pt-12 pb-6 px-6 relative flex flex-col items-center">
         <div className="flex items-center justify-center">
           <img src={headerLogo} className="w-16 mr-2" alt="Date Better logo" />
-          <img src={X} className="w-4 mx-1" alt="X" />
-          <img src={Brentwood} className="w-26" alt="Brentwood" />
         </div>
         <div className="header-container relative mt-4">
           <div className="w-full h-2.5 bg-[#E6D9C3] rounded-full relative">
@@ -47,8 +43,8 @@ function Start() {
 
         <Button
           variant="outline"
-          className="secondary-font w-48 h-16 !rounded-2xl !border-5 !border-[#FED5F5] text-[#FED5F5] !text-2xl !font-bold !bg-transparent hover:!bg-transparent"
-          onClick={ handleStartClick }
+          className="secondary-font w-48 h-16 !rounded-2xl !border-5 !border-[#FED5F5] text-[#FED5F5] hover:text-[#FEB7EE] !text-2xl !font-bold !bg-[#14316C] !hover:bg-[#14316C]"
+          onClick={handleStartClick}
         >
           Start
         </Button>
