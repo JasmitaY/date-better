@@ -13,9 +13,9 @@ const ResultsLanding = () => {
     quizData.resultCategories[0];
 
   return (
-    <div className="bg-[#F6EAD5] fixed inset-0 flex flex-col">
+    <div className="bg-[#F6EAD5] absolute inset-0 flex flex-col">
       {/* Header */}
-      <div className="pt-25 pb-6 px-6 flex flex-col items-center relative bg-[#692800]">
+      <div className="pt-12 pb-6 px-6 flex flex-col items-center relative bg-[#692800]">
         <div className="flex items-center justify-center">
           <img src={lightDB} className="w-20 mr-2" alt="Date Better logo" />
         </div>
@@ -61,24 +61,21 @@ const ResultsLanding = () => {
           <div className="absolute -bottom-10 left-0 right-0 flex justify-center space-x-4">
             <a
               href={resultData.socialMedia.instagramLink}
-              className="text-[#692800 pt-1"
             >
               <img
                 src={resultData.socialMedia.instagramLogo}
-                className="pt-20"
               />
             </a>
             <a
               href={resultData.socialMedia.tiktokLink}
-              className="text-[#692800] pt-1"
+              className="pt-1"
             >
-              <img src={resultData.socialMedia.tiktokLogo} className="pt-20" />
+              <img src={resultData.socialMedia.tiktokLogo}/>
             </a>
             <a
               href={resultData.socialMedia.websiteLink}
-              className="text-[#692800]"
             >
-              <img src={resultData.socialMedia.websiteLogo} className="pt-20" />
+              <img src={resultData.socialMedia.websiteLogo} />
             </a>
           </div>
         </div>

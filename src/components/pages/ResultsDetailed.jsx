@@ -147,7 +147,7 @@ const ResultsDetailed = () => {
   ];
 
   return (
-    <div className="bg-[#F6EAD5] fixed inset-0 flex flex-col">
+    <div className="bg-[#F6EAD5] absolute inset-0 flex flex-col">
       {/* Header */}
       <div
         className="pt-18 pb-6 px-6 flex flex-col items-center relative"
