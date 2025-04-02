@@ -444,40 +444,40 @@ export const quizData = {
     },
   ],
   resultCategories: [
-    {
-      id: "snickerdoodle",
-      title: "Snickerdoodle\nCookie",
-      description: "The kind soul\nwho radiates warmth",
-      cookieImage: snickerdoodle,
-      primaryColor: "#EBB0B6",
-      textColor: "#692800",
-      organicImage: pinkOrganic,
-      dbLogo: darkDB,
-      about:
-        "Cinnamon-kissed\nnut butter and almond\npieces create a nostalgic,\nheartwarming bite--\nperfect for the kind soul\nwho radiates warmth.",
-      ingredients: [
-        { name: "Medjool Dates", icon: date },
-        { name: "Dark Chocolate", icon: darkChocolate, organic: true },
-        { name: "Almonds", icon: almond },
-        { name: "Cashews", icon: cashew },
-        { name: "Coconut", icon: coconut },
-        { name: "Cinnamon", icon: cinnamon },
-        { name: "Vanilla", icon: vanilla },
-        { name: "Sea Salt", icon: seaSalt },
-      ],
-      dateIdea: {
-        title: '"52 Reasons Why"\nLetter Writing',
-        image: letter,
-      },
-      socialMedia: {
-        instagramLogo: darkInsta,
-        tiktokLogo: darkTikTok,
-        websiteLogo: darkWebsite,
-        instagramLink: "https://www.instagram.com/datebettersnacks/",
-        tiktokLink: "https://www.tiktok.com/@datebettersnacks",
-        websiteLink: "https://datebettersnacks.com/",
-      },
-    },
+    // {
+    //   id: "snickerdoodle",
+    //   title: "Snickerdoodle\nCookie",
+    //   description: "The kind soul\nwho radiates warmth",
+    //   cookieImage: snickerdoodle,
+    //   primaryColor: "#EBB0B6",
+    //   textColor: "#692800",
+    //   organicImage: pinkOrganic,
+    //   dbLogo: darkDB,
+    //   about:
+    //     "Cinnamon-kissed\nnut butter and almond\npieces create a nostalgic,\nheartwarming bite--\nperfect for the kind soul\nwho radiates warmth.",
+    //   ingredients: [
+    //     { name: "Medjool Dates", icon: date },
+    //     { name: "Dark Chocolate", icon: darkChocolate, organic: true },
+    //     { name: "Almonds", icon: almond },
+    //     { name: "Cashews", icon: cashew },
+    //     { name: "Coconut", icon: coconut },
+    //     { name: "Cinnamon", icon: cinnamon },
+    //     { name: "Vanilla", icon: vanilla },
+    //     { name: "Sea Salt", icon: seaSalt },
+    //   ],
+    //   dateIdea: {
+    //     title: '"52 Reasons Why"\nLetter Writing',
+    //     image: letter,
+    //   },
+    //   socialMedia: {
+    //     instagramLogo: darkInsta,
+    //     tiktokLogo: darkTikTok,
+    //     websiteLogo: darkWebsite,
+    //     instagramLink: "https://www.instagram.com/datebettersnacks/",
+    //     tiktokLink: "https://www.tiktok.com/@datebettersnacks",
+    //     websiteLink: "https://datebettersnacks.com/",
+    //   },
+    // },
     {
       id: "hazelnutPraline",
       title: "Hazelnut\nPraline",
@@ -623,15 +623,18 @@ export const quizData = {
     qualityTime: {
       primary: "almondJava",
     },
-    // If words of affirmation is the dominant language
+    // wordsAffirmation: {
+    //   primary: "snickerdoodle",
+    // },
+    // If words of affirmation is the dominant language (reassigned to Cashew Lime)
     wordsAffirmation: {
-      primary: "snickerdoodle",
+      primary: "cashewLime",
     },
     // If acts of service is the dominant language
     actsService: {
       primary: "peanutButter",
     },
-    // If receiving gifts is the dominant language
+    // If receiving gifts is the dominant language (reassigned unique mapping)
     gifts: {
       primary: "cashewLime",
     },
