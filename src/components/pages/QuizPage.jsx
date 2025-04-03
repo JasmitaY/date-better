@@ -60,7 +60,6 @@ const QuizPage = ({ question, onNext, onSelect, currentQuestionIndex }) => {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           top: 0,
-          // backgroundAttachment: "fixed", // This ensures the background stays in place
         }}
       >
         <p className="!text-3xl mb-4 text-center font-normal text-[#FED5F5]">

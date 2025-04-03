@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import { useParams } from "react-router-dom";
 import { quizData } from "../../data/questions.js";
-// import lightDB from "../../assets/branding/light-db-logo.svg";
 import resultBG from "../../assets/branding/result-bg.svg";
 
 const ResultsDetailed = () => {
@@ -166,7 +165,7 @@ const ResultsDetailed = () => {
 
       {/* Main Content */}
       <div
-        className="bg-[#692800] flex-1 flex flex-col items-center justify-center px-6 py-10 text-white overflow-hidden relative"
+        className="bg-[#692800] flex-1 flex flex-col items-center justify-center px-2 py-10 text-white overflow-hidden relative"
         style={{
           backgroundImage: `url(${resultBG})`,
           backgroundSize: "110% 110%",
@@ -177,9 +176,9 @@ const ResultsDetailed = () => {
         <h3 className="text-3xl text-center mb-4 whitespace-pre-line">
           {resultData.title}
         </h3>
-        <div className="w-screen relative overflow-hidden flex space-x-5 items-center ml-30">
+        <div className="w-full relative overflow-hidden flex items-center justify-center">
           <div
-            className="flex transition-transform duration-300 ease-in-out w-3/4"
+            className="flex transition-transform duration-300 ease-in-out w-[90%] max-w-md"
             style={{
               transform: `translateX(-${currentSection * 100}%)`,
             }}
